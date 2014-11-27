@@ -37,7 +37,7 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "commander": "^2.5.0",
-    "node-line-reader": "^0.0.1",
+    "node-line-reader": "^0.0.2",
     "password-analyzer": "^0.0.1"
   }
 }
