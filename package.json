@@ -33,6 +33,7 @@
     "url": "https://github.com/T-PWK/node-password-analyzer-cli/issues"
   },
   "dependencies": {
+    "chalk": "^0.5.1",
     "commander": "^2.5.0",
     "node-line-reader": "0.0.1"
   }
