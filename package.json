@@ -1,10 +1,10 @@
 {
   "name": "password-analyzer-cli",
   "version": "0.0.1",
-  "description": "",
+  "description": "Passwords Analyzer command line interface",
   "main": "bin/password-analyzer-cli.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "istanbul cover _mocha --report lcovonly"
   },
   "repository": {
     "type": "git",
@@ -16,11 +16,13 @@
   "contributors": [],
   "keywords": [
     "password",
-    "analyzer"
+    "analyzer",
+    "cli"
   ],
   "author": {
     "name": "Tom Pawlak",
-    "url": "http://blog.tompawlak.org"
+    "url": "http://blog.tompawlak.org",
+    "email": "tompwk@gmail.com"
   },
   "homepage": "https://github.com/T-PWK/node-password-analyzer-cli",
   "licenses": [
@@ -35,6 +37,6 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "commander": "^2.5.0",
-    "node-line-reader": "0.0.1"
+    "node-line-reader": "^0.0.1"
   }
 }
