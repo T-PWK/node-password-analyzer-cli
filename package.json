@@ -4,7 +4,7 @@
   "description": "Passwords Analyzer command line interface",
   "main": "bin/password-analyzer-cli.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "istanbul cover _mocha --report lcovonly"
   },
   "repository": {
     "type": "git",
