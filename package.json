@@ -11,7 +11,7 @@
     "url": "https://github.com/T-PWK/node-password-analyzer-cli.git"
   },
   "bin": {
-    "password-analyzer": "./bin/node-password-analyzer-cli.js"
+    "password-analyzer": "./bin/password-analyzer-cli.js"
   },
   "contributors": [],
   "keywords": [
